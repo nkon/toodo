@@ -1,5 +1,10 @@
 # toodo
 
+This is a test project for tutorial.
+
+Step by step tutorial is available at [https://nkon.github.io/Firebase_Vue/](https://nkon.github.io/Firebase_Vue/).
+
+
 ## Project setup
 ```
 npm install
