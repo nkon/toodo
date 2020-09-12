@@ -61,6 +61,18 @@ export default {
       });
       this.newTodoName = "";
     },
+    // 完了・未完了の値の更新
+    updateIsCompleteTodo: function(todo, key) {
+      if (todo.isComplete == true) {
+        todo.isComplete = false;
+      } else {
+        todo.isComplete = true;
+      }
+      var updates = {};
+      updates[key] = todo;
+      this.todosRef.update(updates);
+    },
+
   },
 };
 </script>
